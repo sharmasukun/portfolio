@@ -147,6 +147,10 @@ body.dark .theme-toggle:hover {
   .theme-toggle {
     margin: 0;
     padding: 1rem 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
   }
 }
 
