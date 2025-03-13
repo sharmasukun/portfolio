@@ -5,7 +5,7 @@ export default function Skills() {
     { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "JavaScript", level: 80 },
-    { name: "React", level: 85 },
+    { name: "Business Analyst", level: 85 },
     { name: "Next.js", level: 75 },
     { name: "Node.js", level: 70 },
     { name: "Git", level: 80 },
