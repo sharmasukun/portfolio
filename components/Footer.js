@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+          <p>&copy; {currentYear} Sukun Sharma. All rights reserved.</p>
         </div>
       </div>
     </footer>
