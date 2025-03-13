@@ -5,13 +5,13 @@ export default function Skills() {
     { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "JavaScript", level: 80 },
-    { name: "Business Analyst", level: 85 },
-    { name: "Quality Analyst(Automation)", level: 75},
-    { name: "Digital Marketing(Boosting)", level: 80},
     { name: "Next.js", level: 75 },
     { name: "Node.js", level: 70 },
     { name: "Git", level: 80 },
     { name: "Responsive Design", level: 90 },
+    { name: "Business Analyst", level: 85 },
+    { name: "Quality Analyst(Automation)", level: 75},
+    { name: "Digital Marketing(Boosting)", level: 80},
   ]
 
   return (
@@ -35,6 +35,9 @@ export default function Skills() {
               <li>Implementing RESTful APIs and state management</li>
               <li>Version control with Git and collaborative development</li>
               <li>Performance optimization and accessibility</li>
+              <li>Skilled in gathering requirements, analyzing business processes, and optimizing ERP, eCommerce, and mobile app solutions.</li>
+              <li>Experienced in manual and automated testing, ensuring software quality, performance, and compliance with requirements.</li>
+              <li>Proficient in SEO, PPC, social media strategies, and analytics to drive traffic, engagement, and conversions.</li>
             </ul>
           </div>
 
