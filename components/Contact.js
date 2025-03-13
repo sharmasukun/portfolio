@@ -50,7 +50,7 @@ export default function Contact() {
                 <div className="icon">📧</div>
                 <div>
                   <h4>Email</h4>
-                  <p>your.email@example.com</p>
+                  <p>sukun.13cs079@gmail.com</p>
                 </div>
               </div>
 
@@ -58,7 +58,7 @@ export default function Contact() {
                 <div className="icon">📱</div>
                 <div>
                   <h4>Phone</h4>
-                  <p>+1 (123) 456-7890</p>
+                  <p>+977 974 541-8214</p>
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ export default function Contact() {
                 <div className="icon">📍</div>
                 <div>
                   <h4>Location</h4>
-                  <p>Your City, Country</p>
+                  <p>Devdaha, Nepal</p>
                 </div>
               </div>
             </div>

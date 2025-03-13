@@ -28,13 +28,13 @@ export default function About() {
             </p>
             <div className="about-details">
               <div className="detail">
-                <strong>Name:</strong> Your Name
+                <strong>Name:</strong> Sukun Sharma
               </div>
               <div className="detail">
-                <strong>Email:</strong> your.email@example.com
+                <strong>Email:</strong> sukun.13cs079@gmail.com
               </div>
               <div className="detail">
-                <strong>Location:</strong> Your City, Country
+                <strong>Location:</strong> Butwal, Nepal
               </div>
               <div className="detail">
                 <strong>Availability:</strong> Open to opportunities
