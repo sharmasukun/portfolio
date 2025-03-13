@@ -35,9 +35,9 @@ export default function Skills() {
               <li>Implementing RESTful APIs and state management</li>
               <li>Version control with Git and collaborative development</li>
               <li>Performance optimization and accessibility</li>
-              <li>Skilled in gathering requirements, analyzing business processes, and optimizing ERP, eCommerce, and mobile app solutions.</li>
-              <li>Experienced in manual and automated testing, ensuring software quality, performance, and compliance with requirements.</li>
-              <li>Proficient in SEO, PPC, social media strategies, and analytics to drive traffic, engagement, and conversions.</li>
+              <li>Skilled in requirements gathering, ERP and SQL/Python for reporting.</li>
+              <li>Experienced in manual, automated testing, ensuring software quality with requirements.</li>
+              <li>Proficient in SEO, PPC, social media strategies, and analytics to drive traffic, and engagement.</li>
             </ul>
           </div>
 
