@@ -29,6 +29,16 @@ export default function Projects() {
       liveLink: "#",
       githubLink: "#",
     },
+    {
+      id: 4,
+      title: "ERPNext",
+      description:
+        "Implementation, customization, and deployment of ERPNext for business process management and automation.",
+      image: "/placeholder.svg?height=300&width=500",
+      technologies: ["ERPNext", "Python", "Frappe", "Docker"],
+      liveLink: "#",
+      githubLink: "#",
+    },
   ]
 
   return (
