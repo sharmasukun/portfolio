@@ -1,3 +1,4 @@
+"use client"
 import "./Footer.css"
 
 export default function Footer() {
@@ -10,6 +11,17 @@ export default function Footer() {
           <div className="footer-logo">
             <h3>Portfolio</h3>
             <p>Building the web, one pixel at a time.</p>
+            <div className="coffee-button-container">
+              <a
+                href="https://buymeacoffee.com/sukun"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="coffee-button"
+              >
+                <span className="coffee-icon">☕</span>
+                <span>Buy me a coffee</span>
+              </a>
+            </div>
           </div>
 
           <div className="footer-links">
