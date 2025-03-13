@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/placeholder.svg?height=400&width=400" alt="Hero" />
+          <img src="/sukun.jpg?height=400&width=400" alt="Hero" />
         </div>
       </div>
     </section>
