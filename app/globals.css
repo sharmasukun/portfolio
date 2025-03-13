@@ -4,6 +4,18 @@
   --background-color: #ffffff;
   --text-color: #333333;
   --accent-color: #f5f5f5;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --border-color: #e0e0e0;
+}
+
+body.dark {
+  --background-color: #121212;
+  --text-color: #f5f5f5;
+  --accent-color: #1e1e1e;
+  --card-bg: #1e1e1e;
+  --card-shadow: rgba(0, 0, 0, 0.3);
+  --border-color: #333333;
 }
 
 * {
@@ -20,6 +32,7 @@ body {
     Helvetica Neue, sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
@@ -71,5 +84,43 @@ h6 {
 p {
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+/* Dark mode overrides for specific sections */
+body.dark .hero {
+  background: linear-gradient(to right, #1a1a1a, #2a2a2a);
+}
+
+body.dark .about,
+body.dark .skills {
+  background-color: var(--accent-color);
+}
+
+body.dark .projects,
+body.dark .contact {
+  background-color: var(--background-color);
+}
+
+body.dark .project-card,
+body.dark .contact-form input,
+body.dark .contact-form textarea {
+  background-color: var(--card-bg);
+  box-shadow: 0 5px 15px var(--card-shadow);
+}
+
+body.dark .project-tech span {
+  background-color: #2a2a2a;
+}
+
+body.dark .footer {
+  background-color: #0a0a0a;
+}
+
+body.dark .navbar {
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+body.dark .navbar-links.active {
+  background-color: #1e1e1e;
 }
 

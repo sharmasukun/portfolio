@@ -4,6 +4,7 @@
   align-items: center;
   padding-top: 80px;
   background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  transition: background 0.3s ease;
 }
 
 .hero-container {

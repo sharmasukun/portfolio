@@ -1,11 +1,34 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import "./Navbar.css"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(false)
+
+  useEffect(() => {
+    // Check if user previously set dark mode
+    const savedMode = localStorage.getItem("darkMode")
+    if (savedMode === "true") {
+      setIsDarkMode(true)
+      document.body.classList.add("dark")
+    }
+  }, [])
+
+  const toggleDarkMode = () => {
+    const newMode = !isDarkMode
+    setIsDarkMode(newMode)
+
+    if (newMode) {
+      document.body.classList.add("dark")
+    } else {
+      document.body.classList.remove("dark")
+    }
+
+    localStorage.setItem("darkMode", String(newMode))
+  }
 
   return (
     <nav className="navbar">
@@ -43,6 +66,11 @@ export default function Navbar() {
             <Link href="#contact" onClick={() => setIsMenuOpen(false)}>
               Contact
             </Link>
+          </li>
+          <li>
+            <button className="theme-toggle" onClick={toggleDarkMode} aria-label="Toggle dark mode">
+              {isDarkMode ? "☀️" : "🌙"}
+            </button>
           </li>
         </ul>
       </div>
