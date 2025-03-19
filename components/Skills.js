@@ -2,13 +2,13 @@ import "./Skills.css"
 
 export default function Skills() {
   const skills = [
-    { name: "HTML", level: 90 },
+    // { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "JavaScript", level: 80 },
     { name: "Next.js", level: 75 },
-    { name: "Node.js", level: 70 },
+    // { name: "Node.js", level: 70 },
     { name: "Git", level: 80 },
-    { name: "Responsive Design", level: 90 },
+    // { name: "Responsive Design", level: 90 },
     { name: "Business Analyst", level: 85 },
     { name: "Quality Analyst(Automation)", level: 75},
     { name: "Digital Marketing(Boosting)", level: 80},
