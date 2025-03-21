@@ -108,3 +108,34 @@
   }
 }
 
+.op-button-container {
+  margin-top: 1rem;
+}
+
+.op-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0873BB;
+  color: #000000;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.op-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(227, 216, 216, 0.3);
+  background-color: #0873BB;
+}
+
+.op-icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  display:flex;
+  align-items: center;
+  gap:10px;
+}
+
