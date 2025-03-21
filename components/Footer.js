@@ -50,6 +50,7 @@ export default function Footer() {
               <li>
                 <a href="#home">Home</a>
               </li>
+            </ul>
           </div>
 
           <div className="footer-social">
