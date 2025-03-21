@@ -31,9 +31,9 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "ERPNext",
+      title: "ERP",
       description:
-        "Implementation, customization, and deployment of ERPNext for business process management and automation.",
+        "Implementation, customization, and deployment of ERP systems for business process management and automation.",
       image: "/placeholder.svg?height=300&width=500",
       technologies: ["ERPNext", "Python", "Frappe", "Docker"],
       liveLink: "#",
