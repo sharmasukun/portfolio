@@ -23,20 +23,6 @@ export default function Footer() {
                 <span>Buy me a coffee</span>
               </a>
             </div>
-            <div className="op-button-container">
-              <a href="http://35.226.147.46/lsdproject" target="_blank" rel="noopener noreferrer" className="op-button">
-                <div className="op-icon">
-                  <Image
-                    src="https://www.openproject.org/assets/images/press/openproject-icon-white-transparent-1-a5752689.svg"
-                    width={35}
-                    height={35}
-                    alt="OpenProject"
-                    unoptimized
-                  />
-                  <span>LSD-op</span>
-                </div>
-              </a>
-            </div>
           </div>
 
           <div className="footer-links">
@@ -58,6 +44,24 @@ export default function Footer() {
                 <a href="#contact">Contact</a>
               </li>
             </ul>
+          </div>
+
+          <div className="footer-projects">
+            <h4>Review my works</h4>
+            <div className="op-button-container">
+              <a href="http://35.226.147.46/lsdproject" target="_blank" rel="noopener noreferrer" className="op-button">
+                <div className="op-icon">
+                  <Image
+                    src="https://www.openproject.org/assets/images/press/openproject-icon-white-transparent-1-a5752689.svg"
+                    width={35}
+                    height={35}
+                    alt="OpenProject"
+                    unoptimized
+                  />
+                  <span>LSD-op</span>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div className="footer-social">
@@ -83,3 +87,4 @@ export default function Footer() {
     </footer>
   )
 }
+
