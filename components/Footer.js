@@ -44,6 +44,13 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+          <div className="footer-links">
+            <h4>Review my projects</h4>
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+          </div>
 
           <div className="footer-social">
             <h4>Connect With Me</h4>
